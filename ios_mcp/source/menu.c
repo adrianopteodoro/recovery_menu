@@ -432,7 +432,7 @@ static void option_StartWupserver(void)
         return;
     }
 
-    int wait_time = 30;
+    int wait_time = 5;
     gfx_printf(16, index, 0, "Waiting for network connection... %ds", wait_time);
 
     NetConfInterfaceTypeEnum interface = 0xff;
